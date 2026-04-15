@@ -488,4 +488,5 @@ function ddStkUpdLbl(){var c=Array.from(document.querySelectorAll('#ddStockPanel
 (function(){var nl=document.getElementById('loginLogo');var sl=document.querySelector('.logo-wrap img');if(nl&&sl)nl.src=sl.src;var o=document.getElementById('loginOverlay');if(o)document.querySelector('.nav').style.display='none';})();
 function doLogin(){var pw=document.getElementById('loginPw').value;var er=document.getElementById('loginErr');if(pw==='cf@admin'){document.getElementById('loginOverlay').classList.add('hd');document.querySelector('.nav').style.display='';er.textContent='';}else{er.textContent='Incorrect password. Try again.';var inp=document.getElementById('loginPw');inp.classList.add('err');setTimeout(function(){inp.classList.remove('err');},500);}}
 
-</script></body></html>
+</script></body><!-- v19-14Apr -->
+</html>
